@@ -83,6 +83,7 @@ Installation steps:
 Watch the complete DiaryApp demonstration:
 
 [▶ Watch DiaryApp Demo](screen-recording/DiaryApp-Demo.mp4)
+Click on "View Raw" option.
 
 ## 📂 Project Structure
 
