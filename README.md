@@ -48,22 +48,68 @@ Installation steps:
 3. Allow installation from unknown sources if prompted.
 4. Complete the installation and open DiaryApp.
 
+## 📸 Screenshots
+
+### Splash Screen
+
+![Splash Screen](screenshots/splash-screen.png)
+
+### Home Screen
+
+![Home Screen](screenshots/home-screen.png)
+
+### Add Note Screen
+
+![Add Note Screen](screenshots/add-note-screen.png)
+
+### View Screen
+
+![View Screen](screenshots/view-screen.png)
+
+### Edit Note Screen
+
+![Edit Note Screen](screenshots/edit-note-screen.png)
+
+### Profile Screen
+
+![Profile Screen](screenshots/profile-screen.png)
+
+### Backup Preview Screen
+
+![Backup Preview Screen](screenshots/backup-preview-screen.png)
+
+## 🎥 Screen Recording
+
+Watch the complete DiaryApp demonstration:
+
+[▶ Watch DiaryApp Demo](screen-recording/DiaryApp-Demo.mp4)
+
 ## 📂 Project Structure
 
 ```text
 DiaryApp/
 ├── app/
 │   └── src/
-│       ├── main/
-│       │   ├── java/com/example/diaryapp/
-│       │   │   ├── data/
-│       │   │   ├── model/
-│       │   │   ├── ui/
-│       │   │   ├── view/
-│       │   │   ├── worker/
-│       │   │   ├── MainActivity.kt
-│       │   │   └── MainViewModel.kt
-│       │   └── res/
+│       └── main/
+│           ├── java/com/example/diaryapp/
+│           │   ├── data/
+│           │   ├── model/
+│           │   ├── ui/
+│           │   ├── view/
+│           │   ├── worker/
+│           │   ├── MainActivity.kt
+│           │   └── MainViewModel.kt
+│           └── res/
+├── screenshots/
+│   ├── splash-screen.png
+│   ├── home-screen.png
+│   ├── add-note-screen.png
+│   ├── view-screen.png
+│   ├── edit-note-screen.png
+│   ├── profile-screen.png
+│   └── backup-preview-screen.png
+├── screen-recording/
+│   └── DiaryApp-Demo.mp4
 ├── release/
 │   └── DiaryApp-v1.0.0.apk
 ├── gradle/
