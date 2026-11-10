@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="Theme.DiaryApp"
+        parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="SplashTheme"
+        parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">
+            @color/splash_background
+        </item>
+
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/splash_diary_icon
+        </item>
+
+        <item name="postSplashScreenTheme">
+            @style/Theme.DiaryApp
+        </item>
+
+    </style>
+
+</resources>
